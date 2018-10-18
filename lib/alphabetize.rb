@@ -1,6 +1,4 @@
-
-  # code here
-  def alphabetize(phrases)
+def alphabetize(phrases)
   alpha = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz".chars
 
   phrases.sort_by do |phrase|
